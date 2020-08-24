@@ -1,0 +1,50 @@
+.App {
+  display: flex;
+  width: 280px;
+  min-height: 300px;
+  border: solid 1px black;
+  background-color: rgb(121, 238, 203);
+  padding: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.text {
+  border: none;
+  background-color: rgb(121, 238, 203);
+  border-bottom: solid 1px grey;
+  width: 120px;
+}
+
+.App-navbar {
+  width: 80px;
+  border-right: 1px solid grey;
+  padding: 10px;
+}
+.App-main {
+  padding: 10px;
+}
+.App-navbar button {
+  width: 80px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+.menu1 {
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todos {
+  display: flex;
+  justify-content: space-between;
+  margin: 3px;
+  word-break: break-all;
+}
+
+.todoC {
+  text-decoration: line-through;
+}
